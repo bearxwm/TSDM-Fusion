@@ -6,7 +6,7 @@ The code of paper 'A Novel Teacher-student Framework with Degradation Model for 
 ## TNO
 TNO: Visual comparison results on the TNO dataset. (a) and (b) are infrared and visible images, while (c)-(i) are the results of image fusion algorithms and (j) is the result of our method. Please zoom in on the images to see more details. ![](./ComparedImages/TNO.png)
 ## ROAD SCENE
-ROAD SENCE: Visual comparison results on the Road Scene dataset. (a) and (b) are infrared and visible images, while (c)-(i) are the results of image fusion algorithms and (j) is the result of our method. Please zoom in on the images to see more details. ![](./ComparedImages/ROAD.png)
+ROAD SCENE: Visual comparison results on the Road Scene dataset. (a) and (b) are infrared and visible images, while (c)-(i) are the results of image fusion algorithms and (j) is the result of our method. Please zoom in on the images to see more details. ![](./ComparedImages/ROAD.png)
 ## LLVIP
 LLVIP: Visual comparison results on the LLVIP dataset. (a) and (b) are infrared and visible images, (c)-(i) are the results of image fusion algorithms, and (j) is the result of our method. Please zoom in on the images to see more details. ![](./ComparedImages/LLVIP.png) 
 ## M3FD
