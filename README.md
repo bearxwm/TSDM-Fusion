@@ -1,5 +1,6 @@
 # TSDM-Fusion
 The code of paper 'A Novel Teacher-student Framework with Degradation Model for Infrared-Visible Image Fusion'.
+**The code and pre-trained models will be released after the paper is published.**
 
 # Compare Results
 ## TNO
