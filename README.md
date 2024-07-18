@@ -2,7 +2,7 @@
 W. Xue, Y. Liu, F. Wang, G. He and Y. Zhuang, "A Novel Teacher–Student Framework With Degradation Model for Infrared–Visible Image Fusion," in IEEE Transactions on Instrumentation and Measurement, vol. 73, pp. 1-12, 2024, Art no. 5020512.
 
 #### doi 
-10.1109/TIM.2024.3398115.
+https://doi.org/10.1109/TIM.2024.3398115.
 #### IEEE
 https://ieeexplore.ieee.org/document/10522962
 
