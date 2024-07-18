@@ -24,8 +24,8 @@ YOLOV7: Visual comparison of object detection results with YOLOv7 algorithm. (a)
 # How to Run
 ## Environment
       cuda	                    11.8	
-      python	              3.10
-      pytorch	              2.0
+      python	             3.10
+      pytorch	             2.0
       imageio                   2.27.0
       kornia                    0.6.12
       numpy                     1.23.5
@@ -39,7 +39,8 @@ YOLOV7: Visual comparison of object detection results with YOLOv7 algorithm. (a)
       tensorboard-data-server   0.7.0
       tensorboard-plugin-wit    1.8.1
       tqdm                      4.65.0 
-      then pip the needed packages
+      
+then pip the needed packages
 
 ## File Sturcture
       ---- Degradation Model (The proposed Degradation Model)
@@ -48,13 +49,13 @@ YOLOV7: Visual comparison of object detection results with YOLOv7 algorithm. (a)
       ---- Train (The Train Files of TeacherNet and StudentNet)
 
 ## How to Test
-1. cd to './Test'
-2. open './sys_configs_test.yaml' file to modify configuration
-3. python Test.py
+      1. cd to './Test'
+      2. open './sys_configs_test.yaml' file to modify configuration
+      3. python Test.py
 
 ## Datasets
 ### TestData
-The Test datasets are located in './Test/Dataets/...'
+      The Test datasets are located in './Test/Dataets/...'
 ### TrainData
 #### 1. The Train dataset can be find in https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html
 #### 2. Remove misaligned images and corp them to 256x128 patches
@@ -66,14 +67,14 @@ The Test datasets are located in './Test/Dataets/...'
 
 ## How to Train
 ### How to Train TeacherNet
-1. cd to ./Train
-2. open './sys_configs_teacher.yaml' file to modify configuration
-3. python Train_Teacher.py
+      1. cd to ./Train
+      2. open './sys_configs_teacher.yaml' file to modify configuration
+      3. python Train_Teacher.py
 
 ### How to Train StudentNet
-1. cd to './Train'
-2. open './sys_configs_student.yaml' file to modify configuration
-3. python Train_Student.py
+      1. cd to './Train'
+      2. open './sys_configs_student.yaml' file to modify configuration
+      3. python Train_Student.py
 
 
 # Cite our work
