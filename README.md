@@ -54,9 +54,10 @@ then pip the needed packages
 ### TestData
 The Test datasets are located in './Test/Dataets/...'
 ### TrainData
-The Train dataset can be find in https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html
-Remove misaligned images and corp them to 256x128 patches
-Naming Rule：
+1. he Train dataset can be find in https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html
+2. Remove misaligned images and corp them to 256x128 patches
+3. Naming Rule：
+
       ---- Train Data ROOT
           |--- 00001_IR.png
           |--- 00001_VI.png
