@@ -2,6 +2,7 @@
 W. Xue, Y. Liu, F. Wang, G. He and Y. Zhuang, "A Novel Teacher–Student Framework With Degradation Model for Infrared–Visible Image Fusion," in IEEE Transactions on Instrumentation and Measurement, vol. 73, pp. 1-12, 2024, Art no. 5020512.
 
 doi: 10.1109/TIM.2024.3398115.
+
 https://ieeexplore.ieee.org/document/10522962
 
 ## Abstract:
@@ -54,13 +55,12 @@ then pip the needed packages
 ### TestData
 The Test datasets are located in './Test/Dataets/...'
 ### TrainData
-1. he Train dataset can be find in https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html
-2. Remove misaligned images and corp them to 256x128 patches
-3. Naming Rule：
-
+#### he Train dataset can be find in https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html
+#### Remove misaligned images and corp them to 256x128 patches
+#### Naming Rule：
       ---- Train Data ROOT
-          |--- 00001_IR.png
-          |--- 00001_VI.png
+            |--- 00001_IR.png
+            |--- 00001_VI.png
               ....
 
 ## How to Train
