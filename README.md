@@ -38,12 +38,19 @@ then pip the needed packages
 
 ## File Sturcture
 ---- Degradation Model
+
       The proposed Degradation Model.
+      
 ---- Model
+
       The TeacherNet, StudentNet and Loss.
+      
 ---- Test 
+
       The Test Files.
+      
 ---- Train
+
       The Train Files of TeacherNet and StudentNet.
 
 ## How to Test
