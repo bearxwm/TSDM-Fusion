@@ -1,0 +1,14 @@
+# Choose GPU
+device: 'cuda:0'
+
+# Choose DataSets
+dateset_list: ['TNO', 'Road_RGB', 'LLVIP_RGB', 'M3FD_RGB']
+
+# Pre-Trained Model
+pre_trained_model: '../StudentNetTest/GT.pth'
+
+# DataSets Path
+Data_Root: '../StudentNetTest/DataSets'
+
+# Fused Results Save Path
+Save_ROOT: '../StudentNetTest/Results'
