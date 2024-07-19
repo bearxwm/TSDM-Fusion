@@ -50,9 +50,12 @@ Then pip the needed packages.
       ---- Train (The Train Files of TeacherNet and StudentNet).
 
 ## 4.3 How to Test
-      1. cd to './Test'
-      2. open './sys_configs_test.yaml' file to modify configuration
-      3. python Test.py
+      a. download pretrain model at 
+            1. baidudisk: https://pan.baidu.com/s/113BV2RRaOCGX1lXKNpVItQ?pwd=di8s 提取码：di8s
+            2. googledrive: https://drive.google.com/file/d/10u1_Kbdoci-cowqKLtbJlnKqtYp3fl14/view?usp=sharing
+      b. cd to './StudentNetTest'
+      c. open './sys_configs_test.yaml' file to modify configuration
+      d. python Test.py
 
 ## 4.4 Datasets
 ### 4.4.1 TestData
