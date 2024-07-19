@@ -21,6 +21,12 @@ LLVIP: Visual comparison results on the LLVIP dataset. (a) and (b) are infrared 
 M3FD: Visual comparison results on the M3FD dataset. (a) and (b) are infrared and visible images, (c)-(i) are the results of image fusion algorithms, and (j) is the result of our method. Please zoom in on the images to see more details. ![](./ComparedImages/M3FD.png)
 ## 3.5 YOLOV7
 YOLOV7: Visual comparison of object detection results with YOLOv7 algorithm. (a) and (b) are infrared and visible images, (c)-(i) are the detection results of image fusion algorithms, and (j) is the result of our method. Please zoom in on the images to see more details. ![](./ComparedImages/YOLOV7.png)
+## 3.6 Download our results
+Our Results can be find in 
+
+1. baidudisk: 链接：https://pan.baidu.com/s/14oA8TtAtG8ybYQkp8MVeoQ?pwd=auam 提取码：auam
+
+2. googledrive: https://drive.google.com/drive/folders/1ITN_XGtzFV3kAgOV35NFDTS97jMEhKoI?usp=sharing
 
 # 4. How to Run
 ## 4.1 Environment
@@ -50,24 +56,24 @@ Then pip the needed packages.
       ---- Train (The Train Files of TeacherNet and StudentNet).
 
 ## 4.3 How to Test
-      a. download pretrain model at 
-            1. baidudisk: https://pan.baidu.com/s/113BV2RRaOCGX1lXKNpVItQ?pwd=di8s 提取码：di8s
-            2. googledrive: https://drive.google.com/file/d/10u1_Kbdoci-cowqKLtbJlnKqtYp3fl14/view?usp=sharing
-      b. cd to './StudentNetTest'
-      c. open './sys_configs_test.yaml' file to modify configuration
-      d. python Test.py
+      a. Download testdata at 
+            a1. baidudisk: 链接：https://pan.baidu.com/s/1XPOXtzppQqVluGxryYdD-w?pwd=k1ff 提取码：k1ff
+            a2. googledrive: https://drive.google.com/drive/folders/1o5cpD2dlZY8gpwYrYb0Zvz5vE42jDZGz?usp=sharing
+      b. Download pretrain model at 
+            b1. baidudisk: https://pan.baidu.com/s/113BV2RRaOCGX1lXKNpVItQ?pwd=di8s 提取码：di8s
+            b2. googledrive: https://drive.google.com/file/d/10u1_Kbdoci-cowqKLtbJlnKqtYp3fl14/view?usp=sharing
+      c. cd to './StudentNetTest'
+      d. open './sys_configs_test.yaml' file to modify configuration
+      e. python Test.py
 
 ## 4.4 Datasets
-### 4.4.1 TestData
-      The Test datasets are located in './Test/Dataets/...'.
-### 4.4.2 TrainData
-#### a. The Train dataset can be find in https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html.
-#### b. Remove misaligned images and corp them to 256x128 patches.
-#### c. Naming Rule：
-      ---- Train Data ROOT
-            |--- 00001_IR.png
-            |--- 00001_VI.png
-              ....
+      a. Download Train dataset at https://ivrlwww.epfl.ch/supplementary_material/cvpr11/index.html.
+      b. Remove misaligned images and corp them to 256x128 patches.
+      c. Naming Rule：
+            ---- Train Data ROOT
+                  |--- 00001_IR.png
+                  |--- 00001_VI.png
+                    ....
 
 ## 4.4 How to Train
 ### 4.4.1 How to Train TeacherNet
