@@ -1,0 +1,19 @@
+# Configs for Total program
+System_Parameters:
+  device: 'cuda:0'            # Choose GPU
+
+# Configs for Roots
+Root:
+  # Train Root
+  data_dictionary_train: 'G:/2D/2D_Train_data/FusionRGB/TrainData/NIR_RGB/' # Train Data
+
+# Configs for Training process
+Train:
+  # Training SYS
+  train_batch_size: 16
+  epoch: 50
+  # OPT SYS
+  # Teacher Net
+  learning_rate_TeacherNet: 0.0005
+  decay_rate_TeacherNet: 0.5
+  decay_step_TeacherNet: 10

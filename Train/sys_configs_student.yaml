@@ -1,0 +1,67 @@
+# Configs for Total program
+System_Parameters:
+  # Train SYS
+  device: 'cuda:0'            # Choose GPU
+Root:
+  # Train Root
+  data_dictionary_train: 'G:/2D/2D_Train_data/FusionRGB/TrainData/NIR_RGB/' # Train Data
+
+# Configs for Dataloader
+Data:
+  window_size: 8
+  image_size: [128, 256]
+
+# Configs for Model
+Model:
+  image_dim: 3
+  embed_dim: 48
+  scale_factor: 1
+  depths: [6, 6, 6, 6]
+  num_heads: [6, 6, 6, 6]
+
+# Configs for Training process
+Train:
+  # Training SYS
+  train_batch_size: 6
+  epoch: 150
+
+  # Multi Net Training Control
+  GAN_start_epoch: 80
+
+  # OPT SYS
+  # StudentNet
+  learning_rate_Student: 0.0005
+  decay_rate_Student: 0.5
+  decay_step_Student: 30
+  # Discriminator
+  learning_rate_D: 0.0001
+  decay_rate_D: 0.5
+  decay_step_D: 30
+
+# Configs for Degradation Model
+Degradation:
+  # Degradation Control
+  # Usm sharper
+  Shaper:
+    radius: 50
+    sigma: 0
+  # Noise
+  noise:
+    gaussian_noise_level1: 2
+    gaussian_noise_level2: 20
+  # JPEG Noise
+  jepg_quality_factor: 50
+  # Contrast
+  contrast_rate_ir: [0.6, 0.8]
+  contrast_rate_vi: [0.7, 0.9]
+  # brightness
+  brightness_rate_vi: [ 0.5, 1.5 ]
+  brightness_prob: 0.3
+  # FPN Noise
+  fpn:
+    h_v_none_prob: [0.7, 0.3, 0]
+    factor_range: [0.95, 1]
+    bias: [-10, 10]
+    noise_rate: 0.05
+  sinc_prob: 0
+
